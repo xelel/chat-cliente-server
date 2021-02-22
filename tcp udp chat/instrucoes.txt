@@ -1,0 +1,5 @@
+1: Executar o server pelo Prompt de Comando. Navegar até a pasta de origem(ex:cd Desktop se estiver no area de trabalho), 
+e usar o comando python server.py. Obs: O Python precisa estar instalado na máquina:
+https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe
+
+2:Executar os clientes pelo Prompt de comando .Navegar até a pasta de origem e usar o comando: python client.py

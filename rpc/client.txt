@@ -1,0 +1,20 @@
+FloatLayout:
+    MDToolbar:
+        elevation:10
+        title:'Chat'
+        anchor_title:'center'
+        pos_hint:{"top":1}
+
+<EnviarMsg>:
+    MDTextField:
+        id:chat
+        pos_hint:{"center_x":.5,"center_y":.25}
+        size_hint:1,None
+        hint_text:'Digite o texto'
+        height:'60dp'
+        icon_right:"send-outline"
+        mode:'rectangle'
+
+    MDRaisedButton:
+        text:'ENVIAR'
+        pos_hint:{"center_x":.5,"center_y":.1}

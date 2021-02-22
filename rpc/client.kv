@@ -1,0 +1,65 @@
+ScreenManager:
+    NicknameScreen:
+        name:'nickname'
+
+    EnviarMsg:
+        name:'sala'
+
+<NicknameScreen>:
+    MDToolbar:
+        elevation:10
+        title:'Messenger'
+        anchor_title:'center'
+        pos_hint:{"top":1}
+
+    MDTextField:
+        id:nick
+        hint_text: "Enter your Nickname"
+        icon_right:"android"
+        icon_right_color: app.theme_cls.primary_color
+        pos_hint:{'center_x': 0.5, 'center_y': 0.5}
+        size_hint_x:None
+        width:300
+
+    MDRaisedButton:
+        text:'Entrar'
+        pos_hint:{'center_x': 0.5, 'center_y': 0.4}
+        on_press:root.show_data()
+
+
+<EnviarMsg>:
+    BoxLayout:
+        orientation:'vertical'
+        MDToolbar:
+            elevation:10
+            title:'Chat'
+            anchor_title:'center'
+            pos_hint:{"top":1}
+            right_action_items:[["arrow-left-bold",lambda x: root._callback()],["exit-to-app",lambda x:app.stop()]]
+
+        ScrollView:
+            BoxLayout:
+                id:box
+                orientation:'vertical'
+                size_hint_y: None
+                height:self.minimum_height
+        BoxLayout:
+            size_hint_y:None
+            height:60
+            TextInput:
+                id:texto
+            MDFloatingActionButton:
+                icon:'send'
+                on_release:root.addWidget(app.root.get_screen('nickname').ids.nick.text)
+                md_bg_color: app.theme_cls.primary_color
+                elevation:
+<Chat>:
+    size_hint_y:None
+    height:50
+    MDLabel:
+
+        theme_text_color:'Custom'
+        text_color:0,0,0,1
+        font_style:'Subtitle1'
+        id:label
+
