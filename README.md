@@ -10,5 +10,5 @@ e a Biblioteca Kivy/KivyMD para fazer a interface gráfica.
 
 ![Settings Window](https://raw.github.com/xelel/Sistemas-Distribuidos/master/1.png)
 ![Settings Window](https://raw.github.com/xelel/Sistemas-Distribuidos/master/2.png)
-![Settings Window](https://raw.github.com/xelel/Sistemas-Distribuidos/master/3.png)
 ![Settings Window](https://raw.github.com/xelel/Sistemas-Distribuidos/master/4.png)
+![Settings Window](https://raw.github.com/xelel/Sistemas-Distribuidos/master/3.png)
