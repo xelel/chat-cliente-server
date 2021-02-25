@@ -7,4 +7,5 @@ no protócolo TCP E UDP.
 Posteriormente, foi desenvolvido novamente um chat, com a biblioteca gRPC do Python, utilizando a comunicação RPC(REMOTE PROCEDURE CALL), 
 e a Biblioteca Kivy/KivyMD para fazer a interface gráfica.
 
-[My image](username.github.com/repository/Sistemas-Distribuidos/1.png)
+
+![Settings Window](https://raw.github.com/xelel/Sistemas-Distribuidos/master/1.png)
