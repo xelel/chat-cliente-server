@@ -39,6 +39,9 @@ https://github.com/xelel/Sistemas-Distribuidos.git
 Para usar o Chat, siga estas etapas:
 
 Execute o arquivo client.py de acordo com o número de clientes(pessoas) comunicando-se via char gRPC
+
+Exemplo do funcionamento da interface:
+
 ![Settings Window](https://raw.github.com/xelel/Sistemas-Distribuidos/master/1.png)
 ![Settings Window](https://raw.github.com/xelel/Sistemas-Distribuidos/master/2.png)
 ![Settings Window](https://raw.github.com/xelel/Sistemas-Distribuidos/master/4.png)
