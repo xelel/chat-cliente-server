@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="1.png" alt="exemplo imagem">
 
 Chat de comunicação cliente-servidor desenvolvido para a disciplina de sistema distribuídos. foi desenvolvido um chat, com os protocolos tcp e udp, utilizando dois arquivos .py. client.py,server.py. Usando a comunicação com base no protócolo TCP E UDP.
 
