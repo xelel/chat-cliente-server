@@ -23,7 +23,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você tem uma máquina `<Windows / Linux / Mac>`.
 * Instalar as dependências do projeto( bibliotecas kivy/kivymd/grpc/threading) 
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando o chat
 
 Para instalar o projeoto, clone o repositório:
 
@@ -34,7 +34,7 @@ https://github.com/xelel/Sistemas-Distribuidos.git
 
 
 
-## ☕ Usando <nome_do_projeto>
+## ☕ Usando o chat
 
 Para usar o Chat, siga estas etapas:
 
